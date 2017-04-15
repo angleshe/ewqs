@@ -1,0 +1,22 @@
+$font_size:108;
+@function px2rem($pixel) {
+    @return $pixel / $font_size+rem;
+}
+@mixin font-dpr($font-size){ 
+	font-size: $font-size;
+	[data-dpr="2"] & { 
+		font-size: $font-size * 2; 
+	}
+	[data-dpr="3"] & { 
+		font-size: $font-size * 3; 
+	} 
+}
+@mixin ellipsis {
+    text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+@mixin mainFrame{
+	max-width:px2rem(1080);
+	margin:0 auto;
+}
