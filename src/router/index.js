@@ -1,6 +1,7 @@
 import VueRouter from 'vue-router'
-import Index from '../App.vue'
+const Index=resolve=>require(['../pages/App.vue'],resolve)
 const router = new VueRouter({
+	mode:'history',
 	routes:[
 		{
 			path:'/',

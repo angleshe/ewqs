@@ -1,6 +1,6 @@
 <template>
 	<div id="mainContainer">
-		<mt-tab-container v-model="active" :swipeable="true" :value="active">
+		<mt-tab-container v-model="active" :swipeable="true">
 			<mt-tab-container-item id="index">
 				{{active}}
 			</mt-tab-container-item>
@@ -19,29 +19,36 @@
 <script>
 import service from '../pages/service.vue'
 import me from '../pages/me.vue'
+import {TabContainer,TabContainerItem} from 'mint-ui'
+import {mapState} from 'vuex'
 export default{
 	name:'mainContainer',
 	data(){
 		return{
-			active:this.select
-		}
-	},
-	props:{
-		select:{
-			default:'index'
+			active:''
 		}
 	},
 	watch:{
-		select(val){
-			this.active=val
-		},
 		active(val){
-			this.$emit('on-change-active',val)
+			this.$store.commit('checkTab',val)
+		},
+		TabState(val){
+			this.active=val
 		}
 	},
 	components:{
 		service,
-		me
+		me,
+		[TabContainer.name]:TabContainer,
+		[TabContainerItem.name]:TabContainerItem
+	},
+	computed:{
+		...mapState([
+			'TabState'
+		])
+	},
+	created(){
+		this.active=this.TabState
 	}
 }
 </script>

@@ -2,7 +2,7 @@
   "presets": [
     ["es2015", { "modules": false }]
   ],
-  "plugins": [["component", [
+  "plugins": ["transform-object-rest-spread",["component", [
     {
       "libraryName": "mint-ui",
       "style": true

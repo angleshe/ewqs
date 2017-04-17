@@ -1,6 +1,6 @@
 <template>
 	<div id="me">
-		<div class="list" v-if="loginStat">
+		<div class="list" v-if="LoginState">
 			<mt-cell is-link>
 				<span slot="title" class="name">阳关下的微笑ing</span>
 				<span slot="title" class="info">你若不离不弃，我必生死相依</span>
@@ -33,8 +33,9 @@
 			</mt-cell>
 		</div>
 		<div class="list">
-			<mt-cell is-link>
+			<mt-cell>
 				<span slot="title" class="title">我的积分</span>
+				<span>20</span>
 				<img slot="icon" src="../assets/img/me-integral.png" class="icon"/>
 			</mt-cell>
 		</div>
@@ -68,15 +69,17 @@
 	</div>
 </template>
 <script>
-import {Button} from 'mint-ui'
+import {Button,Cell} from 'mint-ui'
+import {mapState} from 'vuex'
 export default{
-	data(){
-		return{
-			loaginStat:false
-		}
-	},
 	components:{
-		[Button.name]:Button
+		[Button.name]:Button,
+		[Cell.name]:Cell
+	},
+	computed:{
+		...mapState([
+			'LoginState'
+		])
 	}
 }
 
