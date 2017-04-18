@@ -1,0 +1,89 @@
+@import '../assets/style/util.scss';
+$titleHeight:150;
+#community{
+	@include mainFrame;
+	.top{
+		height:px2rem($titleHeight);
+		line-height:px2rem($titleHeight);
+		font-size:px2rem(52);
+		background-color:#fff;
+		margin-bottom:px2rem(24);
+	}
+	.search{
+		height:px2rem(150);
+	}
+	.ad{
+		margin:px2rem(24) 0;
+		height:px2rem(401);
+		.adimg{
+			background-color:#eee;
+			height:px2rem(401);
+		}
+	}
+	.comm-main{
+		background-color:#fff;
+		text-align:left;
+		.comm-header{
+			height:px2rem($titleHeight);
+			line-height:px2rem($titleHeight);
+			font-size:px2rem(48);
+			color:#333;
+			border-bottom:1px solid #eee;
+			padding-left:px2rem(100);
+			background-image:linear-gradient(to bottom,#85d4fd,#85d4fd);
+		    background-image:-webkit-linear-gradient(top,#85d4fd,#85d4fd);
+		    background-image:-moz-linear-gradient(top,#85d4fd,#85d4fd);
+		    background-image:-ms-linear-gradient(top,#85d4fd,#85d4fd);
+		    background-image:-o-linear-gradient(top,#85d4fd,#85d4fd);
+		    background-repeat:no-repeat;
+		    background-position: px2rem(60) center;
+		    background-size:px2rem(10) px2rem(50);
+		}
+		.comm-item{
+			width:px2rem(1080-48-48);
+			height:px2rem(207);
+			padding:px2rem(48) px2rem(70-48);
+			border-bottom:1px solid #eee;
+			margin:0 auto;
+			.item-img{
+				width:px2rem(207);
+				height:px2rem(207);
+				background-color:#ede8e8;
+				float:left;
+			}
+			.item-title{
+				width:px2rem(1080-70-207-37-70);
+				height:px2rem((207 / 2)-36);
+				margin-bottom: px2rem(36);
+				font-size: px2rem(48);
+				color:#333;
+				float:right;
+				overflow:hidden;
+			}
+			.item-info{
+				width:px2rem(1080-70-207-37-70);
+				height:px2rem(207 / 2);
+				line-height: px2rem(207 / 4);
+				font-size: px2rem(42);
+				color:#666;
+				float:right;
+				overflow:hidden;
+			}	
+		}
+		.comm-footer{
+			height:px2rem(96+114+120);
+			.comm-btn{
+				width:px2rem(401);
+				height:px2rem(114);
+				display:block;
+				margin:px2rem(96) auto auto px2rem(340);
+				line-height:px2rem(114);
+				font-size:px2rem(48);
+				color:#85d4fd;
+				border:1px solid #85d4fd;
+				border-radius: px2rem(114 / 2);
+				text-align:center;
+			}
+		}
+	}
+}

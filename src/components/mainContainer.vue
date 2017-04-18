@@ -5,7 +5,7 @@
 				{{active}}
 			</mt-tab-container-item>
 			<mt-tab-container-item id="tall">
-				{{active}}
+				<community></community>
 			</mt-tab-container-item>
 			<mt-tab-container-item id="service">
 				<service></service>
@@ -17,6 +17,7 @@
 	</div>
 </template>
 <script>
+import community from '../pages/community.vue'
 import service from '../pages/service.vue'
 import me from '../pages/me.vue'
 import {TabContainer,TabContainerItem} from 'mint-ui'
@@ -37,6 +38,7 @@ export default{
 		}
 	},
 	components:{
+		community,
 		service,
 		me,
 		[TabContainer.name]:TabContainer,
