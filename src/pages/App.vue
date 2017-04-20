@@ -29,6 +29,7 @@ export default{
 <style scoped>
 #main{
   text-align: center;
+  background-color:#f8f8f8;
 }
 
 h1, h2 {
