@@ -2,7 +2,7 @@
 	<div id="mainContainer">
 		<mt-tab-container v-model="active" :swipeable="true">
 			<mt-tab-container-item id="index">
-				{{active}}
+				<index></index>
 			</mt-tab-container-item>
 			<mt-tab-container-item id="tall">
 				<community></community>
@@ -17,6 +17,7 @@
 	</div>
 </template>
 <script>
+import index from '../pages/index.vue'
 import community from '../pages/community.vue'
 import service from '../pages/service.vue'
 import me from '../pages/me.vue'
@@ -38,6 +39,7 @@ export default{
 		}
 	},
 	components:{
+		index,
 		community,
 		service,
 		me,

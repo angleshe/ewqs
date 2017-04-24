@@ -14,8 +14,8 @@ const stores=require('../assets/js/store.js')
 export default{
   name:'main',
   components:{
-    'footer-tab':footerTab,
-    'main-container':mainContainer
+    footerTab,
+    mainContainer
   },
   created(){
       if(stores.has('TabIndex')){
