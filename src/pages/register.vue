@@ -7,11 +7,11 @@
 		<div class="register">
 			<!--用户名文本框 模块-->
 			<div class="user">
-			<img src="../assets/img/user.png"><input type="text"  placeholder="手机号" />
+			<img src="../assets/img/user.png"><input type="number"  placeholder="手机号" />
 			</div>
 		<!--密码文本框模块-->
 			<div class="password">
-			<img src="../assets/img/password.png"><input type="text"  placeholder="短信验证码" />		
+			<img src="../assets/img/password.png"><input type="number"  placeholder="短信验证码" />		
 			</div>
 		<!--获取验证码 -->  			
 		
