@@ -19,7 +19,7 @@ $titleHeight:136;//头部标题栏高度
 			margin: px2rem(24) 0 px2rem(23) 0;
 			border-radius:px2rem(10);
 			background-color:#f5f0f0;
-			background-image:url('../assets/img/index-search.png');
+			background-image:url('~img/index-search.png');
 			background-repeat: no-repeat;
 			background-size:px2rem(50) px2rem(50);
 			background-position:px2rem(24) center;
@@ -106,16 +106,16 @@ $titleHeight:136;//头部标题栏高度
 			}
 		}
 		.btn-article:after{
-			background-image:url('../assets/img/index-article.png');
+			background-image:url('~img/index-article.png');
 		}
 		.btn-some:after{
-			background-image:url('../assets/img/btn-img-1.png');
+			background-image:url('~img/btn-img-1.png');
 		}
 		.btn-class:after{
-			background-image:url('../assets/img/index-class.png');
+			background-image:url('~img/index-class.png');
 		}
 		.btn-radio:after{
-			background-image:url('../assets/img/index-radio.png');
+			background-image:url('~img/index-radio.png');
 		}
 	}
 	.comm-main{

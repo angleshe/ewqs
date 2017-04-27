@@ -22,7 +22,7 @@ $imgSize:px2rem(150);
 		@include ellipsis;
 		.header-main{
 			display:inline-block;
-			background:url('../assets/img/service-top-icon.png') no-repeat left center/px2rem(160) px2rem(160);
+			background:url('~img/service-top-icon.png') no-repeat left center/px2rem(160) px2rem(160);
 			position:relative;
 			top:50%;
 			transform:translate(0,-50%);
@@ -76,22 +76,22 @@ $imgSize:px2rem(150);
 			}
 		}
 		.btn-img-1:after{
-			background:url('../assets/img/btn-img-1.png');
+			background:url('~img/btn-img-1.png');
 		}
 		.btn-img-2:after{
-			background:url('../assets/img/btn-img-2.png');
+			background:url('~img/btn-img-2.png');
 		}
 		.btn-img-3:after{
-			background:url('../assets/img/btn-img-3.png');
+			background:url('~img/btn-img-3.png');
 		}
 		.btn-img-4:after{
-			background:url('../assets/img/btn-img-4.png');
+			background:url('~img/btn-img-4.png');
 		}
 		.btn-img-5:after{
-			background:url('../assets/img/btn-img-5.png');
+			background:url('~img/btn-img-5.png');
 		}
 		.btn-img-6:after{
-			background:url('../assets/img/btn-img-6.png');
+			background:url('~img/btn-img-6.png');
 		}
 	}
 	.no-content{

@@ -55,5 +55,5 @@ export default{
 }
 </script>
 <style lang="scss" scoped>
-@import '../assets/style/community.scss'
+@import '~style/community.scss'
 </style>

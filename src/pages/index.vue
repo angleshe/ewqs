@@ -1,11 +1,11 @@
 <template>
 	<div id="index">
 		<div class="top">
-			<img class="sao" src="../assets/img/index-sao.png" alt="扫一扫">
+			<img class="sao" src="~img/index-sao.png" alt="扫一扫">
 			<div class="search">
 				<input type="text" placeholder="搜问题、文章、咨询师...">
 			</div>
-			<img class="message" src="../assets/img/index-tall.png" alt="消息">
+			<img class="message" src="~img/index-tall.png" alt="消息">
 		</div>
 		<div class="ad">
 			<mt-swipe>
@@ -21,14 +21,14 @@
 					<h2>快速提问</h2>
 					<h3>马上倾诉你的烦恼</h3>
 				</div>
-				<img src="../assets/img/index-question.png" />
+				<img src="~img/index-question.png" />
 			</div>
 			<div class="exoert-box">
 				<div class="text">
 					<h2>预约专家</h2>
 					<h3>深度解决你的困扰</h3>
 				</div>				
-				<img src="../assets/img/index-exoert.png" />
+				<img src="~img/index-exoert.png" />
 			</div>
 		</div>
 		<div class="nav2">
@@ -51,7 +51,7 @@
 				<h2>想要婚姻事业双丰收?</h2>
 				<h4>你还需要这8个技能来傍身!</h4>
 				<div class="right">
-					<img src="../assets/img/index-comment.png" />
+					<img src="~img/index-comment.png" />
 					665
 				</div>
 			</div>
@@ -83,5 +83,5 @@ export default{
 }
 </script>
 <style lang="scss" scoped>
-	@import '../assets/style/index.scss';
+	@import '~style/index.scss';
 </style>

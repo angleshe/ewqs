@@ -17,52 +17,52 @@
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">我的提问</span>
-				<img slot="icon" src="../assets/img/me-question.png" class="icon"/>
+				<img slot="icon" src="~img/me-question.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">我发布的</span>
-				<img slot="icon" src="../assets/img/me-release.png" class="icon"/>
+				<img slot="icon" src="~img/me-release.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">我的关注</span>
-				<img slot="icon" src="../assets/img/me-love.png" class="icon"/>
+				<img slot="icon" src="~img/me-love.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="list">
 			<mt-cell>
 				<span slot="title" class="title">我的积分</span>
 				<span>20</span>
-				<img slot="icon" src="../assets/img/me-integral.png" class="icon"/>
+				<img slot="icon" src="~img/me-integral.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">关于我们</span>
-				<img slot="icon" src="../assets/img/me-me.png" class="icon"/>
+				<img slot="icon" src="~img/me-me.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="empty"></div>
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">给我们好评</span>
-				<img slot="icon" src="../assets/img/me-good.png" class="icon"/>
+				<img slot="icon" src="~img/me-good.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">帮助与反馈</span>
-				<img slot="icon" src="../assets/img/me-help.png" class="icon"/>
+				<img slot="icon" src="~img/me-help.png" class="icon"/>
 			</mt-cell>
 		</div>
 		<div class="empty"></div>
 		<div class="list">
 			<mt-cell is-link>
 				<span slot="title" class="title">设置</span>
-				<img slot="icon" src="../assets/img/me-set.png" class="icon"/>
+				<img slot="icon" src="~img/me-set.png" class="icon"/>
 			</mt-cell>
 		</div>
 		
@@ -85,7 +85,7 @@ export default{
 
 </script>
 <style lang="scss" scoped>
-	@import '../assets/style/util.scss';
+	@import '~style/util.scss';
 	#me{
 		@include mainFrame;
 		.list{

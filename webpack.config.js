@@ -49,7 +49,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue'
+      'vue$': 'vue/dist/vue',
+      'img':path.resolve(__dirname,'./src/assets/img'),
+      'style':path.resolve(__dirname,'./src/assets/style')
     }
   },
   devServer: {
