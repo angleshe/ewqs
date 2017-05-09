@@ -1,6 +1,7 @@
 import VueRouter from 'vue-router'
 const Index=resolve=>require(['../pages/App.vue'],resolve)
 const Register=resolve=>require(['../pages/register.vue'],resolve)
+const ArticleList=resolve=>require(['../pages/articleList.vue'],resolve)
 const router = new VueRouter({
 	mode:'history',
 	routes:[
@@ -13,6 +14,11 @@ const router = new VueRouter({
 			path:'/register',
 			name:'register',
 			component:Register
+		},
+		{
+			path:'/articleList',
+			name:'articleList',
+			component:ArticleList
 		}
 	]
 })

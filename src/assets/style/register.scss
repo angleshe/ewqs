@@ -1,6 +1,7 @@
 @import './util.scss';//引入函数库，必须
 #register{
       @include mainFrame;    
+
       .Re_header{  //欢迎来到情侣说的div   
             height:px2rem(83);
             margin:px2rem(275) auto auto px2rem(92);
@@ -52,7 +53,6 @@
                         outline:none;       
                   }   
             }
-     
             .GetDiv{
                   float: left;
                   margin-top:px2rem(80) ;
@@ -93,9 +93,16 @@
           border-radius: px2rem(12); 
           cursor:pointer; 
           font-family: SourceHanSansCN-Regular;
-                        
+          outline:none;              
     }     
-  
+    .goLogin{
+      text-align: center;
+      margin:px2rem(80) auto;
+      span{
+        color:#85d4fd;
+        border-bottom:1px solid #85d4fd;
+      }
+    }
     .DirectLogin{ //直接登陆div模块
           margin-top:px2rem(220);
           width: px2rem(1080) ;
@@ -142,10 +149,9 @@
               float: left;   
               margin-top: px2rem(50) ;
               img{
-              
-                    width:px2rem(138);
-                    height: px2rem(136);
-                
+          
+                width:px2rem(138);
+                height: px2rem(136); 
               }
         } 
         .weixin1{

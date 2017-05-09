@@ -19,4 +19,5 @@ $font_size:108;
 @mixin mainFrame{
 	max-width:px2rem(1080);
 	margin:0 auto;
+	overflow-x:hidden;
 }

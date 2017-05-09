@@ -10,7 +10,7 @@
 		<div class="list" v-else>
 			<mt-cell>
 				<div slot="title" class="login-title">欢迎来到情侣说</div>
-				<div slot="title" class="login-btn"><mt-button size="small" type="primary">马上登陆</mt-button></div>
+				<div slot="title" class="login-btn"><mt-button size="small" type="primary" @click.native="goToLogin">马上登陆</mt-button></div>
 			</mt-cell>
 		</div>
 		<div class="empty"></div>
@@ -80,6 +80,11 @@ export default{
 		...mapState([
 			'LoginState'
 		])
+	},
+	methods:{
+		goToLogin(){
+			this.$router.push('register')
+		}
 	}
 }
 

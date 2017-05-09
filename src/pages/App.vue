@@ -18,6 +18,7 @@ export default{
     mainContainer
   },
   created(){
+      this.$store.commit('hiddenHeader')
       if(stores.has('TabIndex')){
         this.$store.commit('checkTab',stores.get('TabIndex'))
         console.log(stores.get('TabIndex'))

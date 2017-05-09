@@ -4,7 +4,11 @@ import mutations from './mutations'
 Vue.use(vuex)
 const state={
 	TabState:'index',
-	LoginState:false
+	LoginState:false,
+	ToastText:'',
+	isShowToast:false,
+	isShowHeader:false,
+	headerTitle:''
 }
 export default new vuex.Store({
 	state,

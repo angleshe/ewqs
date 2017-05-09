@@ -25,7 +25,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	color:#2c3e50;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -53,4 +52,7 @@ table {
 }
 a{
   text-decoration:none;/*自定义的*/
+}
+strong{
+	font-weight:normal;
 }
