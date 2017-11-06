@@ -1,0 +1,387 @@
+[2017-07-18 13:35:52.573] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 15:26:24.252] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 15:44:45.046] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 15:48:43.205] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 15:53:27.301] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 15:59:36.290] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 16:00:51.133] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 16:15:42.009] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-18 16:19:11.589] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 13:56:16.043] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:12:28.376] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:36:01.472] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:42:22.438] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:44:01.086] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:44:44.370] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:45:56.541] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:50:42.997] [INFO] system - asd
+[2017-07-19 14:54:33.669] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:54:45.271] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 14:54:49.392] [WARN] system - msg:not found page,url:/api/text,ip:::1
+[2017-07-19 14:54:49.485] [WARN] system - msg:not found page,url:/favicon.ico,ip:::1
+[2017-07-19 14:54:50.522] [WARN] system - msg:not found page,url:/api/text,ip:::1
+[2017-07-19 14:54:50.716] [WARN] system - msg:not found page,url:/api/text,ip:::1
+[2017-07-19 14:54:51.156] [WARN] system - msg:not found page,url:/api/text,ip:::1
+[2017-07-19 14:54:51.682] [WARN] system - msg:not found page,url:/api/text,ip:::1
+[2017-07-19 14:54:52.330] [WARN] system - msg:not found page,url:/api/text,ip:::1
+[2017-07-19 14:54:56.118] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-19 14:56:47.795] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 15:44:20.717] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 15:46:27.062] [ERROR] system - server error { NotFoundError: 缺少参数！
+    at Object.throw (E:\共享\859\ewqs\server\node_modules\._koa@2.3.0@koa\lib\context.js:91:11)
+    at E:\共享\859\ewqs\server\middleware\power.js:15:16
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:36:12
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:350:31)
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@4.0.0@koa-compose\index.js:42:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@4.0.0@koa-compose\index.js:43:18) message: '缺少参数！' } { request: 
+   { method: 'GET',
+     url: '/api/test',
+     header: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/test',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-19 15:57:14.711] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 15:57:16.707] [INFO] system - asd
+[2017-07-19 15:58:15.642] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 16:02:01.275] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-19 16:02:57.203] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 09:03:02.003] [ERROR] system - server error { NotFoundError: 缺少参数！
+    at Object.throw (E:\共享\859\ewqs\server\node_modules\._koa@2.3.0@koa\lib\context.js:91:11)
+    at E:\共享\859\ewqs\server\middleware\power.js:15:16
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18) message: '缺少参数！' } { request: 
+   { method: 'POST',
+     url: '/api/user',
+     header: 
+      { 'accept-language': 'zh-CN,zh;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        referer: 'http://localhost:8080/',
+        'content-type': 'application/x-www-form-urlencoded',
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        origin: 'http://localhost:8080',
+        accept: 'application/json, text/plain, */*',
+        'content-length': '0',
+        connection: 'close',
+        host: '127.0.0.1:3000' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/user',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-20 09:32:32.650] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 13:51:14.589] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 13:56:11.306] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:07:00.534] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:07:26.492] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:08:32.058] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:10:01.382] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:10:19.927] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:10:27.147] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:14:51.001] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:15:06.908] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:18:25.377] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:18:46.280] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:21:11.784] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:21:21.820] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:22:18.813] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:22:32.292] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:27:27.926] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:27:49.491] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:34:45.373] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:35:04.783] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:37:33.551] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:38:20.759] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 14:38:23.655] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:38:41.308] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 14:38:53.693] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:03:05.229] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 15:22:28.639] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:22:30.542] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:22:36.848] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:22:38.496] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:22:39.806] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:22:44.357] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:22:47.482] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:23:53.035] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:24:05.787] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:24:24.436] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:24:26.149] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:24:28.411] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:24:30.443] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:24:33.583] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:22.620] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:24.469] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:29.074] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:30.933] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:45.260] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:46.905] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:48.646] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:26:50.304] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:03.891] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:05.398] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:06.941] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:08.324] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:53.756] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:55.965] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:29:57.517] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:33:23.504] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:33:25.453] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:33:27.062] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:33:28.819] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:34:53.136] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:34:54.682] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:34:56.126] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:35:40.221] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-20 15:59:01.402] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-20 17:16:21.105] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-21 13:41:39.893] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 13:44:11.049] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-21 15:11:38.199] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 15:11:57.079] [WARN] system - msg:not found page,url:/topic,ip:::1
+[2017-07-21 15:11:57.125] [WARN] system - msg:not found page,url:/favicon.ico,ip:::1
+[2017-07-21 15:29:11.684] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 15:36:05.289] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 15:40:44.552] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 16:01:12.715] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 16:02:36.639] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 16:03:22.949] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 16:11:52.584] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 16:13:26.389] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 16:14:10.562] [WARN] system - msg:not found page,url:/favicon.ico,ip:::1
+[2017-07-21 16:19:41.842] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:03:14.577] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:03:43.638] [ERROR] system - server error TypeError: Cannot read property 'substring' of undefined
+    at getArtice (E:\共享\859\ewqs\server\api\artice.js:7:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7) { request: 
+   { method: 'GET',
+     url: '/api/artice',
+     header: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/artice',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-21 17:05:17.092] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:06:09.526] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:08:00.937] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:09:08.016] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:17:50.505] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:22:42.735] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:23:09.530] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:24:34.338] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:26:01.078] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-21 17:27:13.366] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-24 15:45:18.353] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-24 15:49:16.439] [WARN] system - msg:not found page,url:/favicon.ico,ip:::1
+[2017-07-24 15:53:39.590] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-24 16:28:12.083] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-24 16:28:29.044] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-24 16:41:06.883] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 15:38:34.118] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 15:51:24.245] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-25 15:52:30.502] [ERROR] system - server error { NotFoundError: 缺少参数！
+    at Object.throw (E:\共享\859\ewqs\server\node_modules\._koa@2.3.0@koa\lib\context.js:91:11)
+    at getArtice (E:\共享\859\ewqs\server\api\artice.js:6:64)
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18) message: '缺少参数！' } { request: 
+   { method: 'GET',
+     url: '/api/artice',
+     header: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/artice',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-25 15:52:53.717] [ERROR] system - server error { NotFoundError: 缺少参数！
+    at Object.throw (E:\共享\859\ewqs\server\node_modules\._koa@2.3.0@koa\lib\context.js:91:11)
+    at getArtice (E:\共享\859\ewqs\server\api\artice.js:6:64)
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:345:16
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18)
+    at allowedMethods (E:\共享\859\ewqs\server\node_modules\._koa-router@7.2.1@koa-router\lib\router.js:406:12)
+    at dispatch (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:44:32)
+    at next (E:\共享\859\ewqs\server\node_modules\._koa-compose@3.2.1@koa-compose\index.js:45:18) message: '缺少参数！' } { request: 
+   { method: 'GET',
+     url: '/api/artice?star=0&&end=5',
+     header: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/artice?star=0&&end=5',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-25 15:53:00.971] [ERROR] system - server error { Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0','5'' at line 1
+    at Query.Sequence._packetToError (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    --------------------
+    at Protocol._enqueue (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Connection.js:208:25)
+    at E:\共享\859\ewqs\server\module\mysqldb.js:16:20
+    at Handshake.onConnect [as _callback] (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Pool.js:64:7)
+    at Handshake.Sequence.end (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Handshake.Sequence.OkPacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Connection.js:103:28)
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  index: 0 } { request: 
+   { method: 'GET',
+     url: '/api/artice?star=0&&count=5',
+     header: 
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/artice?star=0&&count=5',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-25 15:56:23.820] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-25 15:59:35.199] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 15:59:35.220] [ERROR] system - server error { Error: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:178:18)
+    at Socket.Readable.push (_stream_readable.js:136:10)
+    --------------------
+    at Protocol._enqueue (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:141:48)
+    at PoolConnection.query (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Connection.js:208:25)
+    at E:\共享\859\ewqs\server\module\mysqldb.js:16:20
+    at Ping.onOperationComplete [as _callback] (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Pool.js:110:5)
+    at Ping.Sequence.end (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Sequence.js:86:24)
+    at Ping.Sequence.OkPacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\sequences\Sequence.js:95:8)
+    at Protocol._parsePacket (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Parser.js:75:12)
+    at Protocol.write (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (E:\共享\859\ewqs\server\node_modules\._mysql@2.13.0@mysql\lib\Connection.js:103:28)
+  code: 'ER_SP_UNDECLARED_VAR',
+  errno: 1327,
+  sqlState: '42000',
+  index: 0 } { request: 
+   { method: 'GET',
+     url: '/api/artice?star=undefined&&count=undefined',
+     header: 
+      { 'accept-language': 'zh-CN,zh;q=0.8',
+        'accept-encoding': 'gzip, deflate, br',
+        referer: 'http://localhost:8080/',
+        authorization: 'token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiaWF0IjoxNTAwNjE1ODk5LCJleHAiOjE1MDEyMjA2OTl9.WrEp1bKHnJiwxZlKQyt1JaBiTEWqi0UjGYdAVpyVtuI',
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1',
+        accept: 'application/json, text/plain, */*',
+        connection: 'close',
+        host: '127.0.0.1:3000' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/artice?star=undefined&&count=undefined',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2017-07-25 15:59:46.288] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 15:59:58.436] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:15:00.760] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:18:02.428] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:18:08.253] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:18:40.951] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:19:04.311] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:20:43.825] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:21:10.111] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:27:01.535] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:27:05.477] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:27:08.262] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:28:14.699] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:28:27.483] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:28:32.495] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:35:28.711] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:35:57.793] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:36:04.346] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:36:31.507] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:36:35.420] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:38:15.881] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:38:34.322] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:38:42.820] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:38:49.661] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:39:06.286] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:39:35.416] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-25 16:39:44.736] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:40:10.743] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:52:10.711] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:52:16.783] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-25 16:54:09.855] [WARN] system - msg:not found page,url:/api/user,ip:::ffff:127.0.0.1
+[2017-07-31 13:58:28.478] [INFO] system - ewqs server start-quick is starting at port 3000
+[2017-07-31 14:02:33.373] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-31 14:02:37.617] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-31 14:02:39.741] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1
+[2017-07-31 14:02:42.598] [WARN] system - msg:not found page,url:/,ip:::ffff:127.0.0.1

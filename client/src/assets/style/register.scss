@@ -1,0 +1,183 @@
+@import './util.scss';//引入函数库，必须
+.register{
+    @include mainFrame;    
+
+    .Re_header{  //欢迎来到情侣说的div   
+      height:px2rem(83);
+      margin-top:px2rem(120);
+      margin-left: px2rem(92);
+      font-size: px2rem(90);
+      font-family: SourceHanSansCN-Regular;
+      color:#333333;
+      text-align: left;  
+    }  
+    .register{ //文本框div
+      margin-top: px2rem(200);
+      .user{ 
+        input{
+          margin-left:px2rem(24);
+          width: px2rem(750);            
+          border:#cccccc 1px solid;
+          border-top-style: none;
+          border-right-style: none;
+          border-left-style: none;   
+          font-size:px2rem(54);
+          color: #CCCCCC;
+          font-family: SourceHanSansCN-Regular; 
+          outline:none;
+          background-color: #f8f8f8;
+        }      
+        img{
+          width: px2rem(60);
+          height: px2rem(85);
+        }
+      }
+      .username{
+        margin-bottom: px2rem(127);
+        img{
+          width: px2rem(70);
+        }
+      }
+      .password{ 
+        margin-top:px2rem(127);
+        display: inline-block;                    
+        img{
+          display: block;
+          margin-top: px2rem(50);
+          float: left;
+          width: px2rem(60);
+          height: px2rem(69) ;
+        } 
+        input{
+          display: block;
+          float: left;
+          margin-left:px2rem(24);
+          margin-top: px2rem(50);  
+          width: px2rem(390);            
+          border:#ccc 1px solid;
+          border-top-style: none;
+          border-right-style: none;
+          border-left-style: none;   
+          font-size:px2rem(54);
+          line-height:px2rem(54);
+          color: #CCC;
+          font-family: SourceHanSansCN-Regular;
+          outline:none; 
+          background-color: #f8f8f8;      
+        }
+        .GetButton{
+          display: block;
+          float: left;
+          border-radius: px2rem(12);  
+          width:px2rem(296);
+          border: #999 1px solid;
+          height: px2rem(119);
+          margin-left: px2rem(60);
+          background: none repeat scroll 0 0 #85d4fd;
+          outline: none; 
+          font-size: px2rem(45); 
+          color: #fff; 
+          cursor:pointer; 
+          font-family: SourceHanSansCN-Regular; 
+        }
+        .noButton{
+          color: #999;
+          background-color: #f8f8f8;
+        }
+        @include clearFloat;
+      }         
+    }
+    .ButtonDiv{
+      width: px2rem(900);
+      height: px2rem(132);
+      margin-top: px2rem(116);            
+      border-radius:px2rem(12);          
+      margin-left: auto;
+      margin-right: auto;        
+    }
+    .ResButton{
+      width: px2rem(900);
+      height: px2rem(132);
+      background: none repeat scroll 0 0 #85d4fd;                       
+      border-width: 0; 
+      font-size: px2rem(63);         
+      color: #FFFFFF;            
+      border-radius: px2rem(12); 
+      cursor:pointer; 
+      font-family: SourceHanSansCN-Regular;
+      outline:none;              
+    }     
+    .goLogin{
+      text-align: center;
+      margin:px2rem(80) auto;
+      span{
+        color:#85d4fd;
+        border-bottom:1px solid #85d4fd;
+      }
+    }
+    .DirectLogin{ //直接登陆div模块
+      margin-top:px2rem(150);
+      width: px2rem(1080) ;
+      height:px2rem(34+24+136+50+34);
+      margin-bottom:px2rem(82);
+      .Login1{          
+        .hr1{
+          margin: px2rem(20) auto auto px2rem(120) ;
+          width:px2rem(313);
+          float: left; 
+          color: #cccccc;
+        }
+        .hr2{
+          margin: px2rem(20) auto auto px2rem(36) ;
+          width:px2rem(313) ;
+          float: left; 
+          color: #cccccc;
+        }  
+        span{
+          margin-left: px2rem(36);
+          margin-right: px2rem(36);
+          float: left; 
+          color: #999999; 
+          font-size: px2rem(36); 
+          font-family:SourceHanSansCN-Regular ;
+        }
+      }
+      .weixin{      
+        margin-left:px2rem(246) ; 
+        clear: left;
+        float: left;
+        margin-top: px2rem(50) ;
+        img{
+          width:px2rem(138);
+          height: px2rem(136);    
+        }
+      }
+      .weibo{
+        margin-left: px2rem(312); 
+        float: left;   
+        margin-top: px2rem(50) ;
+        img{
+          width:px2rem(138);
+          height: px2rem(136); 
+        }
+      } 
+      .weixin1{
+        clear: left;
+        float: left;
+        font-size:px2rem(36) ;
+        font-family:SourceHanSansCN-Regular ;
+        color: #999999;
+        margin-left:px2rem(279);
+        margin-top: px2rem(24);
+      } 
+      .weibo1{
+        float: left;
+        font-size:px2rem(36);
+        margin-left:px2rem(380);
+        margin-top: px2rem(24);
+        font-family:SourceHanSansCN-Regular ;
+        color: #999999;        
+      }  
+  } 
+           
+}    
