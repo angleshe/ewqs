@@ -83,8 +83,9 @@ export default{
     })
   },
   created () {
-    if (stores.has('Token')) {
+    if (stores.has('Token') && (stores.get('Token') !== '')) {
       this.Token = stores.get('Token')
+      // console.log(this.Token)
       this.$axios.getUser().then(res => {
         let data = res.data
         this.user.face = data.faceUrl

@@ -5,20 +5,24 @@ const _validator = {
 }
 function validator (fn) {
   return new Proxy({}, {
-    _validator,
     set (target, key, value, proxy) {
-      let va = this._validator[key]
-      if (value === '') {
-        fn(`${va.name}不能为空！`, 'bottom')
-        target[key] = false
-        return false
-      }
-      if (va.rule(value)) {
-        return Reflect.set(target, key, value, proxy)
+      if (key in _validator) {
+        let va = _validator[key]
+        let val = ''.trim.apply(value)
+        if (val === '') {
+          fn(`${va.name}不能为空！`, 'bottom')
+          target[key] = false
+          return false
+        }
+        if (va.rule(val)) {
+          return Reflect.set(target, key, value, proxy)
+        } else {
+          fn(va.text || `${va.name}格式错误！`, 'bottom')
+          target[key] = false
+          return false
+        }
       } else {
-        fn(va.text || `${va.name}格式错误！`, 'bottom')
-        target[key] = false
-        return false
+        throw new Error(`验证类中缺少${key}的验证对象！`)
       }
     }
   })
